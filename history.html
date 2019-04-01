@@ -1,0 +1,74 @@
+
+<html>
+<title>
+give your best</title>
+<style type="text/css">
+			body {
+					background-image: url("hallof1.jpg");
+				color:white;
+				padding: 20px;
+				opacity:0.9
+				}
+					figure img:hover{
+				opacity:0.7;
+				}
+					h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;
+				color:#ffffff;
+				}
+				.abc {
+				width: 960px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+				.mySlides {display:none;}
+
+				
+		</style>
+<marquee> <h2>Its not the will to win but the will to prepare to win and thats make a difference
+</h2></marquee>
+<body  text = red>
+<div class="abc">
+			<header>
+			
+				
+			</header
+
+
+
+				<article>
+					<figure>
+					
+				
+				<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="his1.jpg" style="width:180%">
+  <img class="mySlides" src="his2.jpg" style="width:180%">
+  <img class="mySlides" src="his8.png" style="width:180%">
+  <img class="mySlides" src="his3.jpg" style="width:180%">
+    <img class="mySlides" src="his4.jpg" style="width:180%">
+	  <img class="mySlides" src="his5.jpg" style="width:180%">
+	    <img class="mySlides" src="his6.jpg" style="width:180%">
+			    <img class="mySlides" src="his7.jpg" style="width:180%">
+  </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+</figure>
+
+				</article>  
+</body>
+</html>
